@@ -1,7 +1,7 @@
 import requests
 import re
 from bs4 import BeautifulSoup
-
+# Insert your chosen website's url below
 PAGE_URL = 'https://<INSERT URL HERE>'
 
 def get_html_of(url):
